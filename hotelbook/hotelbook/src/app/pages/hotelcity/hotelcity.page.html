@@ -10,4 +10,31 @@
       <ion-title size="large">hotelcity</ion-title>
     </ion-toolbar>
   </ion-header>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="../../../assets/icon/ibis1.jpg" />
+    <ion-card-header>
+      <ion-card-title>
+        <div style="float: left;">Ibis</div>
+        <div style="float: right;">
+          <ion-icon style="text-align: right;" name="star" *ngFor="let i of [1, 2, 3, 4, 5]"></ion-icon>
+        </div>
+      
+      </ion-card-title>
+      <ion-card-subtitle>Oujda
+      
+      </ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+        Boulevard Abdellah Chefchaouni, Place de la gare ONCF 60000 OUJDA,MAROC
+        <hr>
+        GPS:34.681989, -1.922414 <br>
+        Téléphone +212 5366-88202 <br>
+        Fax +212 5366-88208
+        <div style="text-align: right;"><a href="#">Booking</a></div>
+                
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>

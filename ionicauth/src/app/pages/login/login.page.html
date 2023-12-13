@@ -22,16 +22,16 @@
       <a [routerLink]="['/resetpassword']">Forgot password ?</a>
     </div>
     <div>
-      <p>
-        <a href="">Sign now</a>
+      <p>New member?<a [routerLink]="['/signUp']">Sign now</a>
       </p>
     </div>
+  </div>
     <ion-fab vertical="bottom" horizontal=" end" style="margin-bottom: 30px;">
       <ion-fab-button [routerLink]="['/login']">
         <ion-icon name="chevron-forward"></ion-icon>
   
       </ion-fab-button>
-
-  </div>
+    </ion-fab>
+  
  </form>
 </ion-content>
