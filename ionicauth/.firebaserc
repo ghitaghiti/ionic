@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "auth-example-d6c8e": {
+      "hosting": {
+        "app": [
+          "auth-example-d6c8e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "auth-example-d6c8e"
+  }
+}
